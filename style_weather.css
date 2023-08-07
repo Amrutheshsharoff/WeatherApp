@@ -106,3 +106,31 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+
+@media screen and (max-width:475px) {
+    .search {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .search input {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .search button {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+    .textbox {
+        font-size: 2px;
+    }
+    .details {
+        flex-direction: column;
+    }
+    .col {
+        padding: 20px;
+    }
+}
